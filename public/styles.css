@@ -1,0 +1,49 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #0064ba;
+}
+
+h1 {
+  font-size: 40px;
+  color: #ffffff;
+  font-family: 'Raleway',
+    sans-serif;
+  font-weight: 900;
+  /* text-shadow: 3px 0 #DA0463; */
+
+}
+
+p {
+  font-size: 20px;
+  color: #ffffff;
+  font-family: 'Raleway',
+    sans-serif;
+  font-weight: 400;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
